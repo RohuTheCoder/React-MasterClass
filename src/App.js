@@ -4,11 +4,13 @@ import Greet from './components/Greet'
 import Welcome from './components/Welcome';
 import Hello from './components/Hello'
 import Hello1 from './components/Hello1'
+import Message from './components/Message';
 
 function App() {
   return (
     <div className="App">
-      <Greet name="Bruce" heroName="Batman">
+      <Message />
+      {/* <Greet name="Bruce" heroName="Batman">  
       <p>This is children props</p>
       </Greet>
       <Greet name="Clark" heroName="Superman">
@@ -17,7 +19,7 @@ function App() {
       <Greet name="Diana" heroName="Wonder Women"/>
       <Welcome name="Bruce" heroName="Batman"/>
       <Welcome name="Clark" heroName="Superman"/>
-      <Welcome name="Diana" heroName="Wonder Women"/>
+      <Welcome name="Diana" heroName="Wonder Women"/>*/}
      {/*<Welcome /> */}
      {/* <Hello /> */}
     {/*<Hello1 />*/}
